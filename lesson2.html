@@ -1,5 +1,5 @@
-﻿<!doctype html>
-<html lang="">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8"/>
     <title></title>
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="styles/lesser-dark.css">
     <link rel="stylesheet" href="styles/simplescrollbars.css">
     <link href="styles/styles.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="styles/lessonOne.css">
+    <link rel="stylesheet" href="styles/lessonTwo.css">
 
 
 </head>
@@ -25,10 +25,10 @@
         <ul>
             <li class="border">JAVASCRIPT - LESSONS</li>
             <li>
-                <a href="#" class="active">Lesson 1 - Variables</a>
+                <a href="index.html">Lesson 1 - Variables</a>
             </li>
             <li>
-                <a href="lesson2.html">Lesson 2 - IF/ELSE</a>
+                <a href="#" class="active">Lesson 2 - IF/ELSE</a>
             </li>
             <li>
                 <a href="lesson3.html">Lesson 3 - LOOPS</a>
@@ -45,20 +45,31 @@
 
 <main>
     <div class="container">
-        <input id="textOne" type="number" placeholder="הכנס ציון" />
-        <input id="textTwo" type="number" placeholder="הכנס ציון" />
-        <input id="textThree" type="number" placeholder="הכנס ציון" />
+        <div class="box">
+            <label for="tile">Tile type: (C or R)</label>
+            <input id="tileValue" type="text" name="tile"/>
+        </div>
 
-        <button onclick="averageCalc()">חשב</button>
+        <div class="box">
+            <label for="ctype">For C type enter Radius in CM:</label>
+            <input id="cmRadius" type="text" name="ctype"/>
+        </div>
 
-        <div class="average-container">
-            <span>ממוצע ציונים: </span>
+        <div class="box">
+            <label for="rtype">For R type enter Width and Height in CM:</label>
+            <input id="cmWidth" type="text" name="rtype"/>
+            <input id="cmHeight" type="text" name="rtype"/>
+        </div>
+
+        <button onclick="calcPrice()">Calc price</button>
+
+        <div class="price-container">
             <div id="myDiv"></div>
         </div>
     </div>
 
     <div class="code-mirror-container">
-        <div id="codeEditorLesson1"></div>
+        <div id="codeEditorLesson2"></div>
     </div>
 </main>
 
@@ -69,6 +80,6 @@
 <script src="lib/javascript.js"></script>
 <script src="lib/emacs.js"></script>
 <script src="lib/active-line.js"></script>
-<script src="script/lesson1.js"></script>
+<script src="script/lesson2.js"></script>
 </body>
 </html>

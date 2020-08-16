@@ -1,0 +1,12 @@
+.container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+
+  .average-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+}

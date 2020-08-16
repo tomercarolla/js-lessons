@@ -1,5 +1,5 @@
-﻿<!doctype html>
-<html lang="">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8"/>
     <title></title>
@@ -14,18 +14,16 @@
     <link rel="stylesheet" href="styles/lesser-dark.css">
     <link rel="stylesheet" href="styles/simplescrollbars.css">
     <link href="styles/styles.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="styles/lessonOne.css">
 
 
 </head>
 <body>
-
 <header>
     <nav class="nav-menu">
         <ul>
             <li class="border">JAVASCRIPT - LESSONS</li>
             <li>
-                <a href="#" class="active">Lesson 1 - Variables</a>
+                <a href="index.html">Lesson 1 - Variables</a>
             </li>
             <li>
                 <a href="lesson2.html">Lesson 2 - IF/ELSE</a>
@@ -34,7 +32,7 @@
                 <a href="lesson3.html">Lesson 3 - LOOPS</a>
             </li>
             <li>
-                <a href="lesson4.html">Lesson 4 - LOOPS 2</a>
+                <a href="#" class="active">Lesson 4 - LOOPS 2</a>
             </li>
             <!--            <li>-->
             <!--                <a href="#">Lesson 1 - Variables</a>-->
@@ -45,20 +43,30 @@
 
 <main>
     <div class="container">
-        <input id="textOne" type="number" placeholder="הכנס ציון" />
-        <input id="textTwo" type="number" placeholder="הכנס ציון" />
-        <input id="textThree" type="number" placeholder="הכנס ציון" />
+        <div class="box">
+            <label for="sentence">Enter a sentence:</label>
+            <input id="sentenceId" type="text" name="sentence"/>
+        </div>
 
-        <button onclick="averageCalc()">חשב</button>
+        <div class="box">
+            <label for="letter">Enter a letter:</label>
+            <input id="letterId" type="text" name="letter"/>
+        </div>
 
-        <div class="average-container">
-            <span>ממוצע ציונים: </span>
+        <button onclick="checkLetter()">Count letter</button>
+        <br/>
+        <button onclick="checkLetterIndex()">Check letter index</button>
+
+        <div class="result-container">
             <div id="myDiv"></div>
+        </div>
+        <div class="result-container">
+            <div id="myDiv2"></div>
         </div>
     </div>
 
     <div class="code-mirror-container">
-        <div id="codeEditorLesson1"></div>
+        <div id="codeEditorLesson4"></div>
     </div>
 </main>
 
@@ -69,6 +77,6 @@
 <script src="lib/javascript.js"></script>
 <script src="lib/emacs.js"></script>
 <script src="lib/active-line.js"></script>
-<script src="script/lesson1.js"></script>
+<script src="script/lesson4.js"></script>
 </body>
 </html>

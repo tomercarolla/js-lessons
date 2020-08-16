@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 3px solid transparent;
+  background: #01a0e4;
+  background-clip: content-box;
+}
+*::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+*:focus {
+  outline: none;
+}
+
+.CodeMirror {
+  height: auto;
+}
+
+.code-mirror-container {
+  background-color: #262626;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.container input {
+  height: 40px;
+  border: 1px solid;
+  margin-left: 12px;
+  padding: 5px;
+}
+.container button {
+  border: 1px solid;
+  width: max-content;
+  height: 40px;
+  padding: 5px 10px;
+  background: aqua;
+}
+.container .box {
+  margin-bottom: 2em;
+}
+.container .result-container {
+  margin-top: 2em;
+}
+
+.nav-menu {
+  width: 100%;
+  background-color: #8675a9;
+  font-size: 16px;
+  height: 60px;
+}
+.nav-menu ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 100%;
+}
+.nav-menu ul li {
+  display: flex;
+  height: 100%;
+}
+.nav-menu ul li a {
+  padding: 20px;
+}
+.nav-menu ul li a:hover {
+  background-color: #c3aed6;
+  transition: all 0.2s ease-in-out 0s;
+}
+.nav-menu ul li a.active {
+  background-color: #c3aed6;
+  cursor: default;
+}
+.nav-menu .border {
+  border-right: 1px solid #0c0c0d;
+  height: 100%;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

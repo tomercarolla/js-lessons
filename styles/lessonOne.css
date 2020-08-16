@@ -1,0 +1,13 @@
+.container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+}
+.container .average-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=lessonOne.css.map */

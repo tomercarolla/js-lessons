@@ -1,5 +1,5 @@
-﻿<!doctype html>
-<html lang="">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8"/>
     <title></title>
@@ -14,24 +14,23 @@
     <link rel="stylesheet" href="styles/lesser-dark.css">
     <link rel="stylesheet" href="styles/simplescrollbars.css">
     <link href="styles/styles.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="styles/lessonOne.css">
+    <link rel="stylesheet" href="styles/lessonThree.css">
 
 
 </head>
 <body>
-
 <header>
     <nav class="nav-menu">
         <ul>
             <li class="border">JAVASCRIPT - LESSONS</li>
             <li>
-                <a href="#" class="active">Lesson 1 - Variables</a>
+                <a href="index.html">Lesson 1 - Variables</a>
             </li>
             <li>
                 <a href="lesson2.html">Lesson 2 - IF/ELSE</a>
             </li>
             <li>
-                <a href="lesson3.html">Lesson 3 - LOOPS</a>
+                <a href="#" class="active">Lesson 3 - LOOPS</a>
             </li>
             <li>
                 <a href="lesson4.html">Lesson 4 - LOOPS 2</a>
@@ -45,22 +44,25 @@
 
 <main>
     <div class="container">
-        <input id="textOne" type="number" placeholder="הכנס ציון" />
-        <input id="textTwo" type="number" placeholder="הכנס ציון" />
-        <input id="textThree" type="number" placeholder="הכנס ציון" />
+        <div class="box">
+            <label for="number">Enter a number:</label>
+            <input id="numberID" type="text" name="number" />
+        </div>
 
-        <button onclick="averageCalc()">חשב</button>
+        <button onclick="calcNumber()">Calc</button>
+        <br />
+        <button onclick="calcNumberWhile()">Calc with While Loop</button>
 
-        <div class="average-container">
-            <span>ממוצע ציונים: </span>
+        <div class="price-container">
             <div id="myDiv"></div>
         </div>
     </div>
 
     <div class="code-mirror-container">
-        <div id="codeEditorLesson1"></div>
+        <div id="codeEditorLesson3"></div>
     </div>
 </main>
+
 
 <script src="lib/codemirror.js"></script>
 <script src="lib/show-hint.js"></script>
@@ -69,6 +71,6 @@
 <script src="lib/javascript.js"></script>
 <script src="lib/emacs.js"></script>
 <script src="lib/active-line.js"></script>
-<script src="script/lesson1.js"></script>
+<script src="script/lesson3.js"></script>
 </body>
 </html>
