@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="590041ef-bd31-4a92-ab7e-4aee94565d5d" name="Default Changelist" comment="">
+    <list default="true" id="590041ef-bd31-4a92-ab7e-4aee94565d5d" name="Default Changelist" comment="fixed responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/lessonOne.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/lessonOne.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/lessonOne.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/lessonOne.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
@@ -77,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597565587503</updated>
       <workItem from="1597565588861" duration="8118000" />
-      <workItem from="1597642529932" duration="877000" />
+      <workItem from="1597642529932" duration="1479000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1597612082009</created>
@@ -86,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597612082009</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed responsive">
+      <created>1597643469564</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597643469564</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +111,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add files" />
+    <MESSAGE value="fixed responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed responsive" />
   </component>
   <component name="WindowStateProjectService">
     <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1597565780989">
@@ -117,9 +123,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597611960989" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1597612090291">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1597643470893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597612090291" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597643470893" />
   </component>
 </project>
