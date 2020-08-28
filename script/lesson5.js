@@ -34,7 +34,7 @@ var editor = CodeMirror(document.getElementById("codeEditorLesson4"), {
         "\n" +
         "    for (let i = 1; i < numbersArray.length; i++) {\n" +
         "        if (maxNumber < +numbersArray[i]) {\n" +
-        "            maxNumber = numbersArray[i];\n" +
+        "            maxNumber = +numbersArray[i];\n" +
         "        }\n" +
         "    }\n" +
         "\n" +
