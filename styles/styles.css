@@ -22,6 +22,17 @@
   outline: none;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+@media (max-width: 768px) {
+  header {
+    position: initial;
+  }
+}
+
 .nav-menu {
   width: 100%;
   background-color: #8675a9;
