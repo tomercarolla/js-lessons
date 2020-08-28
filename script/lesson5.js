@@ -86,7 +86,7 @@ function calcForLoop() {
 
     for (let i = 1; i < numbersArray.length; i++) {
         if (maxNumber < +numbersArray[i]) {
-            maxNumber = numbersArray[i];
+            maxNumber = +numbersArray[i];
         }
     }
 
