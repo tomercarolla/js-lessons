@@ -1,0 +1,11 @@
+.container {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+
+  input {
+    width: 500px;
+    margin-left: 0;
+  }
+}

@@ -1,8 +1,8 @@
-﻿<!doctype html>
-<html lang="">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <title></title>
+    <meta charset="UTF-8">
+    <title>Title</title>
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
     <meta name="author" content=""/>
@@ -14,18 +14,15 @@
     <link rel="stylesheet" href="styles/lesser-dark.css">
     <link rel="stylesheet" href="styles/simplescrollbars.css">
     <link href="styles/styles.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="styles/lessonOne.css">
-
-
+    <link href="styles/lessonFive.css" rel="stylesheet"/>
 </head>
 <body>
-
 <header>
     <nav class="nav-menu">
         <ul>
             <li class="border">JAVASCRIPT - LESSONS</li>
             <li>
-                <a href="#" class="active">Lesson 1 - Variables</a>
+                <a href="index.html">Lesson 1 - Variables</a>
             </li>
             <li>
                 <a href="lesson2.html">Lesson 2 - IF/ELSE</a>
@@ -37,7 +34,7 @@
                 <a href="lesson4.html">Lesson 4 - LOOPS 2</a>
             </li>
             <li>
-                <a href="lesson5.html">Lesson 5 - Arrays</a>
+                <a href="#" class="active">Lesson 5 - Arrays</a>
             </li>
         </ul>
     </nav>
@@ -45,20 +42,22 @@
 
 <main>
     <div class="container">
-        <input id="textOne" type="number" placeholder="הכנס ציון" />
-        <input id="textTwo" type="number" placeholder="הכנס ציון" />
-        <input id="textThree" type="number" placeholder="הכנס ציון" />
+        <input id="numbersInput" type="text" name="tile" />
 
-        <button onclick="averageCalc()">חשב</button>
+        <button onclick="calc()">Calc</button>
+        <button onclick="calcForLoop()">Calc For Loop</button>
 
-        <div class="average-container">
-            <span>ממוצע ציונים: </span>
+        <div class="result-container">
             <div id="myDiv"></div>
+        </div>
+
+        <div class="result-container">
+            <div id="myDivFor"></div>
         </div>
     </div>
 
     <div class="code-mirror-container">
-        <div id="codeEditorLesson1"></div>
+        <div id="codeEditorLesson4"></div>
     </div>
 </main>
 
@@ -69,6 +68,6 @@
 <script src="lib/javascript.js"></script>
 <script src="lib/emacs.js"></script>
 <script src="lib/active-line.js"></script>
-<script src="script/lesson1.js"></script>
+<script src="script/lesson5.js"></script>
 </body>
 </html>

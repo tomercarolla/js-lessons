@@ -1,0 +1,12 @@
+.container {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+}
+.container input {
+  width: 500px;
+  margin-left: 0;
+}
+
+/*# sourceMappingURL=lessonFive.css.map */

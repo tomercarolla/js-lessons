@@ -101,6 +101,7 @@
   height: 40px;
   padding: 5px 10px;
   background: aqua;
+  margin-bottom: 1em;
 }
 .container .box {
   margin-bottom: 2em;
