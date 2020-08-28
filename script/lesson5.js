@@ -30,10 +30,10 @@ var editor = CodeMirror(document.getElementById("codeEditorLesson4"), {
         "    }\n" +
         "\n" +
         "    let numbersArray = numbers.split(\",\")\n" +
-        "    let maxNumber = numbersArray[0];\n" +
+        "    let maxNumber = +numbersArray[0];\n" +
         "\n" +
         "    for (let i = 1; i < numbersArray.length; i++) {\n" +
-        "        if (maxNumber < numbersArray[i]) {\n" +
+        "        if (maxNumber < +numbersArray[i]) {\n" +
         "            maxNumber = numbersArray[i];\n" +
         "        }\n" +
         "    }\n" +
@@ -82,10 +82,10 @@ function calcForLoop() {
     }
 
     let numbersArray = numbers.split(",")
-    let maxNumber = numbersArray[0];
+    let maxNumber = +numbersArray[0];
 
     for (let i = 1; i < numbersArray.length; i++) {
-        if (maxNumber < numbersArray[i]) {
+        if (maxNumber < +numbersArray[i]) {
             maxNumber = numbersArray[i];
         }
     }
