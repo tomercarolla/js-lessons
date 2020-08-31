@@ -1,4 +1,4 @@
-var editor = CodeMirror(document.getElementById("codeEditorLesson4"), {
+var editor = CodeMirror(document.getElementById("codeEditorLesson5"), {
     value: "//Part A\n" +
         "function calc() {\n" +
         "    let numbers = document.getElementById(\"numbersInput\").value;\n" +
